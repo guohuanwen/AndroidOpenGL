@@ -1,11 +1,12 @@
-package com.bigwen.opengl;
+package com.bigwen.opengl.gl;
 
 import android.content.Context;
 import android.opengl.GLES20;
 import android.opengl.GLSurfaceView;
 
+import com.bigwen.opengl.gl.GLUtil;
+
 import java.nio.FloatBuffer;
-import java.nio.ShortBuffer;
 
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;

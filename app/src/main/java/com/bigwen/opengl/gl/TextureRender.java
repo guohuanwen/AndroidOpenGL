@@ -1,4 +1,4 @@
-package com.bigwen.opengl;
+package com.bigwen.opengl.gl;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -6,6 +6,9 @@ import android.graphics.BitmapFactory;
 import android.opengl.GLES20;
 import android.opengl.GLSurfaceView;
 import android.opengl.GLUtils;
+
+import com.bigwen.opengl.R;
+import com.bigwen.opengl.gl.GLUtil;
 
 import java.nio.FloatBuffer;
 import java.nio.ShortBuffer;
